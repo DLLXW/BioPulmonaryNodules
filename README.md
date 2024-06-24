@@ -1,2 +1,4 @@
 # BioPulmonaryNodules
-This is the source code for our paper << >>
+This is the source code for our paper <<Oral microbiota for the early prediction of benign and malignant intermediate-risk nodules: Promising findings with 16S rRNA gene sequencing and machine learning techniques>>
+
+This study, for the first time, attempted to use a variety of advanced machine learning algorithms based on the best-selected oral microbiome samples to construct predictive models for intermediate-risk pulmonary nodules. It has provided new potential candidates for the development of non-invasive, highly sensitive diagnostic biomarkers specifically for intermediate-risk pulmonary nodules.
