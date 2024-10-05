@@ -14,7 +14,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.naive_bayes import GaussianNB,MultinomialNB,BernoulliNB
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier,GradientBoostingClassifier
 from lightgbm import LGBMClassifier
 from xgboost import XGBClassifier
 
@@ -48,7 +48,7 @@ models = {
                                   n_estimators=100,
                                   num_leaves=2 ** 5-1
                                  ),
-        'GBDT':XGBClassifier(max_depth=7,
+        'GBDT':GradientBoostingClassifier(max_depth=7,
                                 learning_rate=0.1,
                                 n_estimators=150)
 }
